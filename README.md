@@ -19,6 +19,10 @@ eMath.add(a,b)
 `](#eMathaddab)
 
 [`
+eMath.subtract(a,b)
+`](#eMathsubtractab)
+
+[`
 eMath.mult(a,b)
 `](#emathmultab)
 
@@ -39,7 +43,7 @@ eMath.addMany([a,b,c,...])
 `](#emathaddManya,b,c,)
 
 [`
-eMath.fileSize(['url1','url2',...], max)
+eMath.fileSize(['url1','url2',...], max?)
 `](#emathfilesize)
 
 
@@ -55,7 +59,16 @@ const eMath = require('easy-math-module')
 eMath.add(2, 10)
 // –> 12
 ```
+### eMath.subtract(a,b)
+###### Params
+Takes in two numbers, and returns the differance of the numbers in the type of a number.
+###### Example
+```js
+const eMath = require('easy-math-module')
 
+eMath.subtract(2, 10)
+// –> -8
+```
 
 
 
@@ -128,7 +141,7 @@ eMath.divide([1, 2, 3, 100,])
 ```
 
 
-### eMath.fileSize(['url1' , 'url2', ...], max)
+### eMath.fileSize(['url1' , 'url2', ...], max?)
 ###### Params
 Takes an array of file urls, and returns the sum of the bytes in the array. Threre is also an optional second param, the max number of bytes. If the second optional param is used the function returns the percent of the max bytes used by the the files
 ###### Example with the second param
