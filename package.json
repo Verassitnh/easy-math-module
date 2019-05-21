@@ -4,7 +4,7 @@
   "description": "A quick time saving node module for math",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "node test.js"
   },
   "author": "Jackson Mooring",
   "license": "MIT",
@@ -13,10 +13,16 @@
     "url": "git+https://github.com/Gninoskcaj/easy-math-module.git"
   },
   "keywords": [
-    "math","easy","quick","time saver"
+    "math",
+    "easy",
+    "quick",
+    "time saver"
   ],
   "bugs": {
     "url": "https://github.com/Gninoskcaj/easy-math-module/issues"
   },
-  "homepage": "https://gninoskcaj.github.io/easy-math-module/"
+  "homepage": "https://gninoskcaj.github.io/easy-math-module/",
+  "devDependencies": {
+    "zora": "^3.0.1"
+  }
 }
