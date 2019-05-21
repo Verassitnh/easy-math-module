@@ -16,36 +16,36 @@ const eMath = require('easy-math-module')
 
 [`
 eMath.add(a,b)
-`](#eMathadd)
+`](#eMathaddab)
 
 [`
 eMath.mult(a,b)
-`](#emathmult)
+`](#emathmultab)
 
 [`
 eMath.divide(a,b)
-`](#emathdivide)
+`](#emathdivideab)
 
 [`
 eMath.mod(a,b)
-`](#emathmod)
+`](#emathmodab)
 
 [`
 eMath.percent(a,b)
-`](#emathpercent)
+`](#emathpercentab)
 
 [`
 eMath.addMany([a,b,c,...])
-`](#emathaddMany)
+`](#emathaddManya,b,c,)
 
 [`
-eMath.fileSize(['url1','url2'], bytes)
+eMath.fileSize(['url1','url2',...], max)
 `](#emathfilesize)
 
 
 ## Description of functions
 
-### eMath.add()
+### eMath.add(a,b)
 ###### Params
 Takes in two numbers, and returns the sum of the numbers in the type of a number.
 ###### Example
@@ -63,7 +63,7 @@ eMath.add(2, 10)
 
 
 
-### eMath.mult()
+### eMath.mult(a,b)
 
 ###### Params
 Takes in two numbers, and returns the product of the numbers in the type of a number.
@@ -75,7 +75,7 @@ eMath.add(20, 10)
 // –> 2000 
 ```
 
-### eMath.divide()
+### eMath.divide(a,b)
 ###### Params
 Takes in two numbers, and returns the quotient of the numbers in the type of a number.
 ###### Example
@@ -89,7 +89,7 @@ eMath.divide(2, 10)
 
 
 
-### eMath.mod()
+### eMath.mod(a,b)
 ###### Params
 Takes in two numbers, and returns the 'remainer' of the of a division problem in the type of a number.
 ###### Example
@@ -102,7 +102,7 @@ eMath.mod(6, 3)
 
 
 
-### eMath.percent()
+### eMath.percent(a,b)
 ###### Params
 Takes in two numbers, and returns the percentage X is of Y in the type of a number.
 ###### Example
@@ -116,7 +116,7 @@ eMath.percent(2, 10)
 
 
 
-### eMath.addMany()
+### eMath.addMany([a,b,c,...])
 ###### Params
 Takes *an array* of numbers, and returns the sum of the numbers in the type of a number.
 ###### Example
@@ -128,7 +128,7 @@ eMath.divide([1, 2, 3, 100,])
 ```
 
 
-### eMath.fileSize()
+### eMath.fileSize(['url1' , 'url2', ...], max)
 ###### Params
 Takes an array of file urls, and returns the sum of the bytes in the array. Threre is also an optional second param, the max number of bytes. If the second optional param is used the function returns the percent of the max bytes used by the the files
 ###### Example with the second param
@@ -150,3 +150,5 @@ eMath.fileSize(['./myfile.txt','anotherfile.txt'])
 // –> 40
 // the output type is a number
 ```
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new)
