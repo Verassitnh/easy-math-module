@@ -38,6 +38,10 @@ eMath.percent(a,b)
 eMath.addMany([a,b,c,...])
 `](#emathaddMany)
 
+[`
+eMath.fileSize(['url1','url2'], bytes)
+`](#emathfilesize)
+
 
 ## Description of functions
 
@@ -121,4 +125,28 @@ const eMath = require('easy-math-module')
 
 eMath.divide([1, 2, 3, 100,])
 // –> 106
+```
+
+
+### eMath.fileSize()
+###### Params
+Takes an array of file urls, and returns the sum of the bytes in the array. Threre is also an optional second param, the max number of bytes. If the second optional param is used the function returns the percent of the max bytes used by the the files
+###### Example with the second param
+```js
+const eMath = require('easy-math-module')
+// In this instance the opional second param IS used
+// myfile.txt and anotherfile.txt are both 20 bytes
+eMath.fileSize(['./myfile.txt','anotherfile.txt'], 200)
+// –> 20
+// the output type is a number	
+```
+
+###### Example without the second param
+```js
+const eMath = require('easy-math-module')
+// In this instance the opional second param is NOT used
+// myfile.txt and anotherfile.txt are both 20 bytes
+eMath.fileSize(['./myfile.txt','anotherfile.txt'])
+// –> 40
+// the output type is a number
 ```
