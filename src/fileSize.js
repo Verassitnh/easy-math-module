@@ -21,6 +21,7 @@ module.exports = (array, max) =>
 		return fileSizeInBytes
 	}
 
-	var re = /abc+/ 
 
 }
+
+let re = /[0-9]+(gb)/;

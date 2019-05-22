@@ -26,7 +26,7 @@ test('Test eMath.addMany()', t => {
 })
 
 test('Test eMath.fileSize()', t => {
-	t.equal(eMath.fileSize(['test.js', 'index.js'], '1GB') )
-	t.equal(eMath.fileSize(['test.js', 'index.js'], 10000), 7.66)
+	t.equal(eMath.fileSize(['test.js', 'index.js'], '1GB'), 0.767)
+	t.equal(eMath.fileSize(['test.js', 'index.js'], 10000), 7.17)
 
 })
