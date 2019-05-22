@@ -164,4 +164,4 @@ eMath.fileSize(['./myfile.txt','anotherfile.txt'])
 // the output type is a number
 ```
 Find a Bug?
-[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new)
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
