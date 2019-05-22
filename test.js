@@ -1,5 +1,6 @@
-const eMath = require('./index');
+const EasyMathModule = require('./index');
 const { test } = require('zora');
+const eMath = new EasyMathModule();
 
 test('Test eMath.subtract()', t => {
 	t.equal(eMath.add( 5, 5), 10)
