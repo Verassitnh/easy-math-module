@@ -28,7 +28,7 @@ function parseMax(max) {
 
 	var array = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB",];
 
-	for (x in array) {
+	for (let x in array) {
 		if (suffix === array[x]) {
 			var x3 = x * 3;
 			for (var i = 0; i < x3; i++) {
