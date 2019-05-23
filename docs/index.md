@@ -1,7 +1,7 @@
 
 ## Links: 
 
-- [Docs](./index.md)
+- [Docs](./tableofcontents.md)
 
 - [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
 
