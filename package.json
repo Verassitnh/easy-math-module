@@ -1,6 +1,6 @@
 {
   "name": "easy-math-module",
-  "version": "1.3.1",
+  "version": "2.0.0",
   "description": "A quick time saving node module for math",
   "main": "index.js",
   "scripts": {
