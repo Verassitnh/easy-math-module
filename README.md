@@ -1,6 +1,4 @@
 # Easy-Math-Module
-
-
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=version)](https://github.com/Gninoskcaj/easy-math-module/releases)
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=npm)](https://www.npmjs.com/package/easy-math-module)
 [![NPM](https://img.shields.io/npm/l/easy-math-module.svg)](https://angular.io/license)
@@ -14,7 +12,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module/badge)](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module)
 
 ## How to use:
-
 
 First...
 ```shell
@@ -58,7 +55,6 @@ eMath.addMany([a,b,c,...])
 eMath.fileSize(['url1','url2',...], max?)
 `](#emathfilesize)
 
-
 ## Description of functions
 
 ### eMath.add(a,b)
@@ -81,13 +77,6 @@ const eMath = require('easy-math-module')
 eMath.subtract(2, 10)
 // –> -8
 ```
-
-
-
-
-
-
-
 ### eMath.mult(a,b)
 
 ###### Params
@@ -111,9 +100,6 @@ eMath.divide(2, 10)
 // –> 20
 ```
 
-
-
-
 ### eMath.mod(a,b)
 ###### Params
 Takes in two numbers, and returns the 'remainer' of the of a division problem in the type of a number.
@@ -125,8 +111,6 @@ eMath.mod(6, 3)
 // -> 0
 ```
 
-
-
 ### eMath.percent(a,b)
 ###### Params
 Takes in two numbers, and returns the percentage X is of Y in the type of a number.
@@ -137,10 +121,6 @@ const eMath = require('easy-math-module')
 eMath.percent(2, 10)
 // –> 0.2
 ```
-
-
-
-
 ### eMath.addMany([a,b,c,...])
 ###### Params
 Takes *an array* of numbers, and returns the sum of the numbers in the type of a number.
@@ -151,8 +131,6 @@ const eMath = require('easy-math-module')
 eMath.divide([1, 2, 3, 100,])
 // –> 106
 ```
-
-
 ### eMath.fileSize(['url1' , 'url2', ...], max?)
 ###### Params
 Takes an array of file urls, and returns the sum of the bytes in the array. Threre is also an optional second param, the max number of bytes. If the second optional param is used the function returns the percent of the max bytes used by the the files
