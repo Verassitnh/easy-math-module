@@ -8,13 +8,13 @@ eMath.fileSize(['./myfile.txt','anotherfile.txt'], '10GB')
 // –> 20
 // the output type is a number	
 ```
-#
+
 ###### Params 
 `eMath.fileSize()` Takes an array of file urls. There is also an optional second param, the max number of bytes as a string like this `'2GB'`.
-#
+
 ###### Returns 
 `eMath.fileSize()` Returns the sum of the bytes of the files in the array.  If the second optional param is used the function returns the percent of the max bytes used by the the files
-#
+
 ###### Examples
 **Example without the second param**
 
@@ -26,7 +26,7 @@ eMath.fileSize(['./myfile.txt','anotherfile.txt'])
 // –> 40
 // the output type is a number
 ```
-#
+
 **Example with the second param**
 ```js
 const eMath = require('easy-math-module')

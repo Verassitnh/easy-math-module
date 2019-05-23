@@ -8,10 +8,12 @@ eMath.mod(12, 2)
 
 ###### Params 
 `eMath.mod()` Takes in **2** numbers as parameters.
-#
+
+
 ###### Returns: 
 `eMath.mod` Returns the modulo (the remainer) of  the two numbers passed in when called.
-#
+
+
 ###### Examples:
 **Examples with context**
 ```javaScript
@@ -31,7 +33,7 @@ let eMath = require('easy-math-module')
 eMath.mod(10, 5)
 
 ```
-#
+
 
 Find a Bug?
 [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

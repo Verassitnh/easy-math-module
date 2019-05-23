@@ -2,6 +2,7 @@
 
 ###### How to use:
 1. Install `easy-math-module` like so..
+<br>
 ```shell
 $ npm i easy-math-module
 ```
@@ -11,7 +12,7 @@ $ npm i easy-math-module
 let eMath = require('easy-math-module');
 ```
 3. Enjoy the ease and comfort of `easy-math-module`
-#
+
 
 Find a Bug?
 [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

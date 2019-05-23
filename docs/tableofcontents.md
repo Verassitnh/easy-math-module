@@ -18,3 +18,6 @@
 - [`subtract()`](./subtract.md)
 
 - [Contact](./contact.md)
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

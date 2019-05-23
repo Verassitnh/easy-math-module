@@ -8,10 +8,10 @@ eMath.divide(12, 2)
 
 ###### Params 
 `eMath.divide()` Takes in **2** number as parameters.
-#
+
 ###### Returns: 
 `eMath.divide` Returns the quotient two numbers passed in when called.
-#
+
 ###### Examples:
 **Examples with context**
 ```javaScript
@@ -31,7 +31,6 @@ let eMath = require('easy-math-module')
 eMath.divide(10, 5)
 
 ```
-#
 
 Find a Bug?
 [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
