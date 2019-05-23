@@ -1,6 +1,4 @@
 # Easy-Math-Module
-
-
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=version)](https://github.com/Gninoskcaj/easy-math-module/releases)
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=npm)](https://www.npmjs.com/package/easy-math-module)
 [![NPM](https://img.shields.io/npm/l/easy-math-module.svg)](https://angular.io/license)
@@ -14,7 +12,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module/badge)](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module)
 
 ## How to use:
-
 
 First...
 ```shell
