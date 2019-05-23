@@ -27,7 +27,7 @@ function fileSize(array, max) {
 	// Helper functions
 	function percent(a, b) {
 		return (a / b) * 100;
-	};
+	}
 
 	function addMany(array) {
 		var result = 0;
@@ -35,7 +35,7 @@ function fileSize(array, max) {
 			result += array[i];
 		}
 		return result;
-	};
+	}
 
 	function getFilesizeInBytes(filename) {
 		var stats = fs.statSync(filename);
