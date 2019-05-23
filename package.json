@@ -4,7 +4,8 @@
   "description": "A quick time saving node module for math",
   "main": "index.js",
   "scripts": {
-	"test": "node test.js"
+	"test": "node test.js",
+	"dev": "node ./src/fileSize.js"
   },
   "author": "Jackson Mooring",
   "license": "MIT",
