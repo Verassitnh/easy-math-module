@@ -1,20 +1,26 @@
-# Welcome to the Docs
 
-### Table of contents
-- [Getting Started](./gettingStarted.md)
+## Links: 
 
-- [`add()`](./add.nm)
+- [Docs](./index.md)
 
-- [`divide()`](./divide.md)
+- [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
 
-- [`fileSize()`](./fileSize.md)
+- [Help](./contact.md)
 
-- [`mod()`](./mod.md)
+- [NPM](https://www.npmjs.com/package/easy-math-module)
 
-- [`mult()`](./mult.md)
+- [Githup Repo](https://github.com/Gninoskcaj/easy-math-module)
 
-- [`percent()`](./percent.md)
+## Info:
 
-- [`subtract()`](./subtract.md)
+ [![GitHub followers](https://img.shields.io/github/followers/gninoskcaj.svg?style=social)](https://github.com/Gninoskcaj)
 
-- [Contact Me](mailto:easy.math.module@gmail.com) ( easy.math.module@gmail.com or on discord at Gninoskcaj#7292)
+
+ [![GitHub forks](https://img.shields.io/github/forks/gninoskcaj/easy-math-module.svg?style=social)](https://github.com/Gninoskcaj/easy-math-module/network/members)
+
+ [![GitHub watchers](https://img.shields.io/github/watchers/gninoskcaj/easy-math-module.svg?style=social)](https://github.com/Gninoskcaj/easy-math-module/watchers)
+
+ [![GitHub stars](https://img.shields.io/github/stars/gninoskcaj/easy-math-module.svg?style=social)](https://github.com/Gninoskcaj/easy-math-module/stargazers)
+
+ [![npm](https://img.shields.io/npm/dw/easy-math-module.svg?style=social)](https://www.npmjs.com/package/easy-math-module)
+
