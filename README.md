@@ -1,5 +1,7 @@
 # Easy-Math-Module
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d548106b24b646cda765b7282dd340eb)](https://app.codacy.com/app/Gninoskcaj/easy-math-module?utm_source=github.com&utm_medium=referral&utm_content=Gninoskcaj/easy-math-module&utm_campaign=Badge_Grade_Dashboard)
+
 
 ## How to use:
 
