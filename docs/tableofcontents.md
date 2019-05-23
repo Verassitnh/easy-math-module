@@ -17,4 +17,4 @@
 
 - [`subtract()`](./subtract.md)
 
-- [Contact](mailto:easy-math-module@gmail.com)
+- [Contact](./contact.md)
