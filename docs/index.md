@@ -24,3 +24,5 @@
 
  [![npm](https://img.shields.io/npm/dw/easy-math-module.svg?style=social)](https://www.npmjs.com/package/easy-math-module)
 
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

@@ -5,13 +5,13 @@
 eMath.subtract(1, 50) 
 // -> 49
 ```
-#
+
 ###### Params 
 `eMath.subtract()` Takes in **2** parameters, both numbers.
-#
+
 ###### Returns 
 `eMath.subtract()` Returns the differance of the numbers.
-#
+
 ###### Examples
 **Example with context**
 ```javaScript
@@ -31,7 +31,7 @@ function subtract(spentMoney, totalMoney) {
 	eMath.subtract(spentMoney, totalMoney);
 	
 ```
-#
+
 
 Find a Bug?
 [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

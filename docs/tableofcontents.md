@@ -3,18 +3,21 @@
 ### Table of contents
 - [Getting Started](./gettingStarted.md)
 
-- [`add()`](./add.md)
+- [Docs for: `add()`](./add.md)
 
-- [`divide()`](./divide.md)
+- [Docs for: `divide()`](./divide.md)
 
-- [`fileSize()`](./fileSize.md)
+- [Docs for: `fileSize()`](./fileSize.md)
 
-- [`mod()`](./mod.md)
+- [Docs for: `mod()`](./mod.md)
 
-- [`mult()`](./mult.md)
+- [Docs for: `mult()`](./mult.md)
 
-- [`percent()`](./percent.md)
+- [Docs for: `percent()`](./percent.md)
 
-- [`subtract()`](./subtract.md)
+- [Docs for: `subtract()`](./subtract.md)
 
 - [Contact](./contact.md)
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

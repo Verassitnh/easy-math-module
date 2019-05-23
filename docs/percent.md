@@ -6,13 +6,13 @@
 eMath.percent(1, 50) 
 // -> 2
 ```
-#
+
 ###### Params 
 `eMath.percent()` Takes in **2** parameters, both numbers.
-#
+
 ###### Returns 
 `eMath.mult()` Returns the **percentage the first param is of the second param**.
-#
+
 ###### Examples
 **Example with context**
 ```javaScript
@@ -32,7 +32,7 @@ function findPercentOfMonyISpent(spentMoney, totalMoney) {
 	eMath.percent(spentMoney, totalMoney);
 	
 ```
-#
+
 
 
 Find a Bug?
