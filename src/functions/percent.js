@@ -1,4 +1,4 @@
 	// Percentage
-	module.exports.percent = (a, b) => {
+	module.exports = percent = (a, b) => {
 		return (a / b) * 100;
 	};

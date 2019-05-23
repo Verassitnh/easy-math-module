@@ -1,110 +1,72 @@
-const fs = require('fs');
+const fs = require("fs");
+
+
+function fileSize(array, max) {
+
+	// Local vars
+	let sizes = [];
+	try {
+		if (max) {
+			max = parseMax(max);
+		}
+
+	}
+	catch (e) {
+		throw new Error(e);
+	}
+	for (x in array) {
+		sizes.push(getFilesizeInBytes(array[x]));
+	}
+	if (max) {
+		return percent(addMany(sizes), max);
+	} else return addMany(sizes);
 
 
 
-module.exports.fileSize = (array, max) => {
-		let sizes = [];
+
+	// Helper functions
+	function percent(a, b) {
+		return (a / b) * 100;
+	};
+
+	function addMany(array) {
+		var result = 0;
+		for (let i = 0; i < array.length; i++) {
+			result += array[i];
+		}
+		return result;
+	};
+
+	function getFilesizeInBytes(filename) {
+		var stats = fs.statSync(filename);
+		var fileSizeInBytes = stats["size"];
+		return fileSizeInBytes;
+	}
+
+	function parseMax(max) {
+
+
+		var finalNum = "1";
+		var num = Number(max.match(/\d*/)[0]);
+		var suffix = max.match(/[A-Z]+/)[0];
+
+		var array = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB",];
 
 		for (x in array) {
-			sizes.push(getFilesizeInBytes(array[x]));
-		}
-		if (max) {
-			parseMax()
-			return eMath_simple.percent(eMath_simple.addMany(sizes), max);
-		} else return eMath_simple.addMany(sizes);
-
-
-
-		function getFilesizeInBytes(filename) {
-			var stats = fs.statSync(filename)
-			var fileSizeInBytes = stats["size"]
-			return fileSizeInBytes
-		}
-
-		function parseMax(max) {
-
-			// Create regular expresions for this
-			let kb = /\d*\s*KB/
-			let mb = /\d+\s*MB/
-			let gb = /\d+\s*GB/
-			let tb = /\d+\s*TB/
-			let pb = /\d+\s*PB/
-			let eb = /\d+\s*EB/
-			let zb = /\d+\s*ZB/
-			let yb = /\d+\s*YB/
-
-
-			// Check 
-			if (kb.test(max)) {
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (mb.test(max)) {
-				max = max / 1000;
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (gb.test(max)) {
-				max = max / 1000
-				max = max / 1000;
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (tb.test(max)) {
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (pb.test(max)) {
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (eb.test(max)) {
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-				max = max / 1000
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (zb.test(max)) {
-				max = max / 1000
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-			} else if (yb.test(max)) {
-				max = max / 1000
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-				max = max / 1000;
-
-				max = Number(max.match(/\d*/)[0])
-				max = max / 1000;
-
-
-
+			if (suffix === array[x]) {
+				var x3 = x * 3;
+				for (var i = 0; i < x3; i++) {
+					finalNum += "0";
+				}
 			}
-			return max;
 		}
+
+		var result = Number(finalNum);
+		result *= num;
+		return result;
 	}
+}
+
+
+
+module.exports = fileSize;

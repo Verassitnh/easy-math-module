@@ -1,4 +1,4 @@
 // Modulus
-module.exports.mod = (a, b) => {
+module.exports = mod = (a, b) => {
 	return a % b;
 };

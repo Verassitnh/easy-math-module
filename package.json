@@ -4,8 +4,8 @@
   "description": "A quick time saving node module for math",
   "main": "index.js",
   "scripts": {
-	"test": "node test.js",
-	"dev": "node ./src/fileSize.js"
+    "test": "node test.js",
+    "dev": "node ./src/fileSize.js"
   },
   "author": "Jackson Mooring",
   "license": "MIT",
@@ -25,5 +25,8 @@
   "homepage": "https://gninoskcaj.github.io/easy-math-module/",
   "devDependencies": {
     "zora": "^3.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.4.5"
   }
 }

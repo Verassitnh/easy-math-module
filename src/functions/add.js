@@ -1,4 +1,4 @@
 // Addition
-module.exports.add = (a, b) => {
+module.exports = add = (a, b) => {
 	return a + b;
 };
