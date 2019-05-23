@@ -33,3 +33,7 @@ function findPercentOfMonyISpent(spentMoney, totalMoney) {
 	
 ```
 #
+
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

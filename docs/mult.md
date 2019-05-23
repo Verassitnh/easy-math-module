@@ -37,3 +37,6 @@ function findTaxForProducts(array_of_products_prices) {
 	
 ```
 #
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

@@ -32,3 +32,6 @@ eMath.divide(10, 5)
 
 ```
 #
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)

@@ -12,3 +12,6 @@ let eMath = require('easy-math-module');
 ```
 3. Enjoy the ease and comfort of `easy-math-module`
 #
+
+Find a Bug?
+[Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
