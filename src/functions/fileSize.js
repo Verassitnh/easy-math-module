@@ -59,7 +59,7 @@ function fileSize(array, max) {
 	}
 	if (max) {
 		return percent(addMany(sizes), max);
-	} else return {  addMany(sizes);  }
+	} else { return  addMany(sizes); }
 
 
 
