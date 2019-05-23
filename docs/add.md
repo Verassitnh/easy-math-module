@@ -13,7 +13,7 @@ eMath.add([4,5,6])
 
 ###### Examples
 **Example with context**
-```javaScript
+```js
 // Bad:
 function getPrice(array_of_products) {
 
