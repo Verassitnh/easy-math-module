@@ -54,12 +54,12 @@ function fileSize(array, max) {
 	catch (e) {
 		throw new Error(e);
 	}
-	for (x in array) {
+	for (let x in array) {
 		sizes.push(getFilesizeInBytes(array[x]));
 	}
 	if (max) {
 		return percent(addMany(sizes), max);
-	} else return addMany(sizes);
+	} else return {  addMany(sizes);  }
 
 
 
