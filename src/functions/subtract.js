@@ -1,4 +1,6 @@
 // Subtraction
-module.exports = subtract = (a, b) => {
+var subtract = (a, b) => {
 	return a - b;
 }
+
+module.exports = subtract;

@@ -1,4 +1,6 @@
 // Multiplication
-module.exports = mult = (a, b) => {
+var mult = (a, b) => {
 	return a * b;
 };
+
+module.exports = mult;
