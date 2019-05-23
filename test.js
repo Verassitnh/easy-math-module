@@ -23,5 +23,5 @@ test("Test eMath.mod()", (t) => {
 
 test("Test eMath.addMany()", (t) => {
 	t.equal(eMath.addMany([5, 10, 20]), 35);
-})
+});
 
