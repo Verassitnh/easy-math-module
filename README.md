@@ -11,8 +11,7 @@
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gninoskcaj/easy-math-module.svg)](https://github.com/Gninoskcaj/easy-math-module)
 
 [![GitHub stars](https://img.shields.io/github/stars/gninoskcaj/easy-math-module.svg?color=green)](https://github.com/Gninoskcaj/easy-math-module)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d548106b24b646cda765b7282dd340eb)](https://app.codacy.com/app/Gninoskcaj/easy-math-module?utm_source=github.com&utm_medium=referral&utm_content=Gninoskcaj/easy-math-module&utm_campaign=Badge_Grade_Dashboard)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module/badge)](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module)
 
 ## How to use:
 
