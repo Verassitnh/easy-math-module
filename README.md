@@ -13,11 +13,11 @@
 
 ## Links: 
 
-- [Docs](./docs/tableofcontents.md)
+- [Docs](https://gninoskcaj.github.io/easy-math-module/tableofcontents.html)
 
 - [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
 
-- [Help](./docs/contact.md)
+- [Help](https://gninoskcaj.github.io/easy-math-module/contact.md)
 
 - [NPM](https://www.npmjs.com/package/easy-math-module)
 
