@@ -10,7 +10,6 @@
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gninoskcaj/easy-math-module.svg)](https://github.com/Gninoskcaj/easy-math-module)
 
 [![GitHub stars](https://img.shields.io/github/stars/gninoskcaj/easy-math-module.svg?color=green)](https://github.com/Gninoskcaj/easy-math-module)
-[![CodeFactor](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module/badge)](https://www.codefactor.io/repository/github/gninoskcaj/easy-math-module)
 
 ## How to use:
 
