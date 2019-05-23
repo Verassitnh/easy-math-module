@@ -1,4 +1,5 @@
 # Easy-Math-Module
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1637c70d09e3476d8d09b9ed80c6c734)](https://app.codacy.com/app/Gninoskcaj/easy-math-module?utm_source=github.com&utm_medium=referral&utm_content=Gninoskcaj/easy-math-module&utm_campaign=Badge_Grade_Settings)
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=version)](https://github.com/Gninoskcaj/easy-math-module/releases)
 [![npm](https://img.shields.io/npm/v/easy-math-module.svg?color=green&label=npm)](https://www.npmjs.com/package/easy-math-module)
 [![NPM](https://img.shields.io/npm/l/easy-math-module.svg)](https://angular.io/license)
