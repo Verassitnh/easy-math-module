@@ -4,7 +4,7 @@ let mult = (array, mult) => {
 		let result = [];
 
 		for (let x in array) {
-			result.push(array[x] * mult)
+			result.push(array[x] * mult);
 		}
 	} else {
 		var result = 0;
