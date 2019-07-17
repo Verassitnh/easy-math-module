@@ -13,8 +13,6 @@
 
 ## Links: 
 
-- [Docs](https://gninoskcaj.github.io/easy-math-module/tableofcontents.html)
-
 - [Submit an issue](https://github.com/Gninoskcaj/easy-math-module/issues/new/choose)
 
 - [Help](https://gninoskcaj.github.io/easy-math-module/contact.md)
